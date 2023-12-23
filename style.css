@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./pubg-playerunknowns-battlegrounds-2020-games-1920x1200-1274.jpg');
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 1px 5px #000;
+    background: rgba(237, 105, 61, 0.286);
+    position: fixed;
+    background-repeat: no-repeat;
+}
+
+.left a {
+    color: rgb(19, 17, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.right .links {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right .links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menyu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.register {
+    width: 300px;
+    margin: 250px auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(192, 153, 97, 0.65);
+}
+
+.btn button {
+    width: 150px;
+    height: 30px;
+    background: rgb(24, 105, 255);
+    border: none;
+    border-radius: 20px;
+}
+.btn button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.register input {
+    width: 70%;
+    height: 35px;
+    border-radius: 6px 15px;
+    padding: 0 15px;
+}
+
+.asos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regis h2 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.linklar {
+    width: 300px;
+    height: 400px;
+    background: rgba(215, 130, 61, 0.518);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linklar input {
+    width: 80%;
+    height: 35px;
+    border-radius: 6px 15px;
+    border: none;
+    padding: 0 20px;
+}
+
+.linklar .btns button {
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+}
+
+.linklar .btns button a{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .cont{
+        background-image: url(./photo_5460721347299758914_y\ \(1\).jpg);
+    }
+}   
+.malumot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.number1{
+    margin-top: 200px;
+    width: 300px;
+    border: 5px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+.number2{
+    width: 300px;
+    border: 5px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+.number3{
+    width: 300px;
+    border: 5px solid #000;
+    padding: 20px;
+    text-align: center;
+}
